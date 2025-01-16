@@ -5,7 +5,6 @@ plugins {
 android {
     namespace 'com.example.mobile_lab'
     compileSdk 34
-
     defaultConfig {
         applicationId "com.example.mobile_lab"
         minSdk 24
@@ -21,6 +20,9 @@ android {
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
         }
+    }
+    buildFeatures{
+        viewBinding true
     }
     compileOptions {
         sourceCompatibility JavaVersion.VERSION_11
