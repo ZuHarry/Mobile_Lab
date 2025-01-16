@@ -3,4 +3,10 @@
     <string name="user_name">Enter your username</string>
     <string name="user_pwd">Your Password</string>
     <string name="btn_login">Enter</string>
+
+
+    <string name="expense_for">Expense for...</string>
+    <string name="expense_date">5/10/2024</string>
+    <string name="expense_value">RM</string>
+    <string name="total_price">Total Price RM...</string>
 </resources>

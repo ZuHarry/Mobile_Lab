@@ -21,6 +21,7 @@ public class ActivityRegister extends AppCompatActivity {
         setContentView(binding.getRoot());
 
         binding.buttonRegister.setOnClickListener(this::fnCalculateAge);
+        binding.buttonExpense.setOnClickListener(this::fnGoExpense);
 
     }
 
@@ -61,5 +62,10 @@ public class ActivityRegister extends AppCompatActivity {
             binding.editTextDOB.setText("Please enter year in number");
         }
 
+    }
+
+    public void fnGoExpense(View view){
+        Intent intent = new Intent(this, ActivityExpense.class);
+        startActivity(intent);
     }
 }

@@ -118,4 +118,13 @@
         android:layout_marginStart="30dp"
         android:layout_marginEnd="30dp"
         android:fontFamily="sans-serif-condensed-medium"/>
+
+    <Button
+        android:id="@+id/buttonExpense"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Go to Expense"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:fontFamily="sans-serif-condensed-medium"/>
 </LinearLayout>
